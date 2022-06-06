@@ -1,0 +1,35 @@
+.home {
+  display: flex;
+  width: 100vw;
+  /* Layout Properties */
+  background: #fcfcfc 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.homeEdit {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.groupCont {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: fit-content;
+}
+.wigGroup {
+  margin-left: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: left;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.groupChart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  margin-top: 30px;
+}

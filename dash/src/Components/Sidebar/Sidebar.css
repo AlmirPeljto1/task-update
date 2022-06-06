@@ -1,0 +1,549 @@
+/*KONTENER*/
+.containerSidebar {
+  /* Layout Properties */
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  max-width: 251px;
+  height: 1432px;
+  /* UI Properties */
+  background: var(--unnamed-color-0f172e) 0% 0% no-repeat padding-box;
+  background: #0f172e 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+/*LOGO*/
+.logo {
+  max-width: 82px;
+  min-height: 23px;
+  margin: 19.9px 84px 0px;
+}
+/*DASHBOARD*/
+.dashboard {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* Layout Properties */
+  margin: 29.5px 10.5px 0px;
+  max-width: 231px;
+  min-height: 42px;
+  /* UI Properties */
+  background: var(--unnamed-color-3d44db) 0% 0% no-repeat padding-box;
+  background: #3d44db 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+}
+.dashboardSvg {
+  /* Layout Properties */
+
+  margin-left: 10.5px;
+  max-width: 18px;
+  min-height: 14px;
+  /* UI Properties */
+  opacity: 1;
+}
+.dashboardTitle {
+  /* Layout Properties */
+  margin-left: 15.23px;
+  max-width: 78px;
+  min-height: 19px;
+  /* UI Properties */
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+/*LOYALTY*/
+.loyalty {
+  max-width: 209.19px;
+  min-height: 19px;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+  margin-left: 21px;
+  align-items: center;
+  margin-top: 13px;
+}
+.loyaltyMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loyaltyImg {
+  /* Layout Properties */
+  max-width: 18px;
+  min-height: 18px;
+  /* UI Properties */
+  opacity: 1;
+}
+.loyaltyItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loyaltyTitle {
+  /* Layout Properties */
+  margin-left: 14.5px;
+  width: 51px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.loyaltyIcon {
+  /* Layout Properties */
+  margin-left: 108.5px;
+  max-width: 18px;
+  min-height: 18px;
+  /* UI Properties */
+  opacity: 1;
+}
+.kuponi {
+  /* Layout Properties */
+  margin-top: 25px;
+  margin-left: 53.5px;
+  width: 50px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.pragovi {
+  /* Layout Properties */
+  margin-top: 25px;
+  margin-left: 53.5px;
+  width: 54px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.specKuponi {
+  /* Layout Properties */
+  margin-top: 25px;
+  margin-left: 53.5px;
+  width: 122px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.transakcije {
+  /* Layout Properties */
+  margin-top: 25px;
+  margin-left: 53.5px;
+  width: 82px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.lokacije {
+  /* Layout Properties */
+  margin-top: 25px;
+  margin-left: 53.5px;
+  width: 60px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.proizvodi {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.proizvodiMenu {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 25px;
+}
+/*PROIZVODI*/
+.proizvodiImg {
+  /* Layout Properties */
+  margin-left: 22px;
+  width: 19px;
+  height: 18px;
+  /* UI Properties */
+  opacity: 1;
+}
+.proizvodiSvg {
+  /* Layout Properties */
+  margin-left: 92.5px;
+  width: 18px;
+  height: 18px;
+  /* UI Properties */
+  opacity: 1;
+}
+.proizvodiTitle {
+  /* Layout Properties */
+  margin-left: 12.5px;
+  width: 67px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.listaProizvoda {
+  /* Layout Properties */
+  margin-top: 25px;
+  align-items: center;
+  margin-left: 53.5px;
+  width: 109px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.proizvodiKategorije {
+  /* Layout Properties */
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  margin-left: 53.5px;
+  width: 73px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.sadrzaji {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+}
+.sadrzajiMenu {
+  display: flex;
+  align-items: center;
+}
+/*SADRZAJI*/
+.sadrzajiImg {
+  /* Layout Properties */
+  margin-left: 22.5px;
+  width: 18px;
+  height: 18px;
+  /* UI Properties */
+  opacity: 1;
+}
+.sadrzajiTitle {
+  /* Layout Properties */
+  margin-left: 13px;
+  width: 58px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.sadrzajiItems {
+  display: flex;
+  flex-direction: column;
+}
+.sadrzajiSvg {
+  /* Layout Properties */
+  margin-left: 101.5px;
+  width: 18px;
+  height: 18px;
+  /* UI Properties */
+  opacity: 1;
+}
+.listaSadrzaja {
+  /* Layout Properties */
+  margin-top: 25px;
+  margin-left: 53.5px;
+  width: 100px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.sadrzajiKategorije {
+  /* Layout Properties */
+  margin-top: 25px;
+  margin-left: 53.5px;
+  width: 73px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.ostatak {
+  display: flex;
+  flex-direction: column;
+}
+.korisnickiApk {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+/*KORISNICI*/
+.korisniciAplikacijeImg {
+  /* Layout Properties */
+  margin-left: 22.5px;
+  width: 16px;
+  height: 11px;
+  /* UI Properties */
+  opacity: 1;
+}
+.korisniciAplikacijeTitle {
+  /* Layout Properties */
+  margin-left: 15px;
+  width: 134px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+/*NOTIFIKACIJE*/
+.notifikacijeImg {
+  /* Layout Properties */
+
+  margin-left: 22px;
+  width: 17px;
+  height: 13px;
+  /* UI Properties */
+  opacity: 1;
+}
+.notifikacijeTitle {
+  /* Layout Properties */
+  margin-left: 15px;
+  width: 81px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+/*ANKETA*/
+.anketaImg {
+  /* Layout Properties */
+  margin-left: 23px;
+  width: 18px;
+  height: 18px;
+  /* UI Properties */
+  opacity: 1;
+}
+.anketaTitle {
+  /* Layout Properties */
+  margin-left: 12.5px;
+  width: 50px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+/*BANERI*/
+.baneriImg {
+  /* Layout Properties */
+  margin-left: 22.5px;
+  width: 18px;
+  height: 18px;
+  /* UI Properties */
+  opacity: 1;
+}
+.baneriTitle {
+  /* Layout Properties */
+  margin-left: 13px;
+  width: 46px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.postavke {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+/*POSTAVKE*/
+.postavkeImg {
+  /* Layout Properties */
+  margin-left: 22px;
+  width: 15px;
+  height: 12px;
+  /* UI Properties */
+  opacity: 1;
+}
+.postavkeTitle {
+  /* Layout Properties */
+  margin-left: 16.36px;
+  width: 66px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+/*DOKUMENTI*/
+.dokumenti {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+.dokumentiImg {
+  /* Layout Properties */
+  margin-left: 22.75px;
+  width: 14px;
+  height: 17px;
+  /* UI Properties */
+  opacity: 1;
+}
+.dokumentiTitle {
+  /* Layout Properties */
+  margin-left: 17.11px;
+  width: 78px;
+  height: 19px;
+  /* UI Properties */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: medium;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal medium 16px/18px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.notApk {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+.anketa {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+.baneri {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}

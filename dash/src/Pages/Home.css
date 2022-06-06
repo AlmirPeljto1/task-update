@@ -1,0 +1,44 @@
+.home {
+  display: flex;
+  width: 100vw;
+  /* Layout Properties */
+  background: #fcfcfc 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.homeEdit {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.groupCont {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: fit-content;
+}
+.gg {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.wigGroup {
+  margin-left: 20px;
+  display: flex;
+  justify-content: left;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.winGroup1 {
+  margin-left: 20px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.groupChart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  margin-top: 30px;
+}
